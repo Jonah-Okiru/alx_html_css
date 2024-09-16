@@ -1,0 +1,26 @@
+/*Apply display flex to main and body*/
+main, body {
+    display: flex;
+}
+/*Apply flex direction to main and body*/
+body{
+    flex-direction: column;
+}
+main {
+    flex-direction: row;
+}
+/* Apply flex auto to main*/
+main {
+    flex: auto;
+}
+/*To set the article to take 2/3 of the boxes and aside one boxes*/
+article {
+    flex: 2;
+}
+aside {
+    flex: 1;
+}
+/* To make sure the user can scroll only within the article and aside*/
+article, aside {
+    overflow-y: auto;
+}
