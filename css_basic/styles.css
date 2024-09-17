@@ -24,3 +24,16 @@ aside {
 article, aside {
     overflow-y: auto;
 }
+/* apply background color to the body*/
+body {
+    background-color: bisque;
+}
+article{
+    font-weight: bold;
+    column-fill: auto;
+}
+logo {
+    font-weight: bolder;
+    color: gold;
+    align-self: auto;
+}
