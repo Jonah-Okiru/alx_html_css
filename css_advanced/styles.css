@@ -329,3 +329,41 @@ nav a{
     font-weight: bolder;
     padding-top: 20px;
 }
+/*Footer styling*/
+.footer{
+    background-color: #071629;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 249px;
+}
+.social-media a{
+    text-decoration: none;
+    color: #FFFFFF;
+    word-spacing: 20px;
+}
+.social-media{
+    word-spacing: 40px;
+}
+.logo-footer{
+    text-align: start;
+    
+}
+.copyright{
+    text-align: center;
+    padding-top: 200px;
+    padding-right: 700px
+}
+.logo{
+    padding-top: 120px;
+}
+.social{
+    padding-top: 120px;
+
+}
+.copy{
+    padding-left: 200px;
+    text-align: center;
+}
+
