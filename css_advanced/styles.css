@@ -119,3 +119,104 @@ nav a{
 .text_quote h4{
     padding-top: 10px;
 }
+/* Video section*/
+/* styling the header*/
+#videos h2{
+    text-align: center;
+    size: 50px;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+.video-highlights{
+    color: #C271FF;
+}
+.video-blocks{
+    display: flex;
+    flex-direction: row;
+    width: 1228px;
+    height: 450px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+/* Set the video1 play button*/
+.video-block-1{
+    position: relative;
+    display: inline-block;
+    padding-right: 70px;
+}
+.video-1{
+    width: 100%;
+    height: auto;
+}
+.overlay-1{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 50pxl;
+    height: 50pxl;
+
+}
+/*set video 2 play button*/
+.video-block-2{
+    position: relative;
+    display: inline-block;
+    padding-right: 70px;
+}
+.video-2{
+    width: 100%;
+    height: auto;
+}
+.overlay-2{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 50pxl;
+    height: 50pxl;
+}
+/*set video3 paly button*/
+.video-block-3{
+    position: relative;
+    display: inline-block;
+    padding-right: 50px;
+}
+.video-3{
+    width: 100%;
+    height: auto;
+}
+.overlay-3{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 50pxl;
+    height: 50pxl;
+}
+/*set video 4 playing button*/
+.video-block-4{
+    position: relative;
+    display: inline-block;
+    padding-right: 70px;
+}
+.video-4{
+    width: 100%;
+    height: auto;
+}
+.overlay-4{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 50pxl;
+    height: 50pxl;
+}
+/*changing the color of author and time length of the video*/
+.author h4{
+    color: #C271FF;
+}
+.rating p{
+    color: #C271FF;
+}
+/* set the display of rating and time to flex row*/
+.rating{
+    display: flex;
+    flex-direction: row;
+    word-spacing: 0px;
+}
