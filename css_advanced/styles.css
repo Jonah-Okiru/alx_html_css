@@ -279,3 +279,53 @@ nav a{
     background-color: #C271FF;
     font-size: larger;
 }
+/*styling the FAQ section*/
+.FAQ-1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.FAQ-2{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.FAQ-containers{
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    padding-left: 230px;
+}
+/*styling the header*/
+.FAQ h1{
+    font-size: large;
+    text-align: center;
+    font-weight: bolder;
+    color: #071629;
+    padding-top: 20px;
+    size: 60px;
+
+}
+/*Styling sub headers*/
+.FAQ-11 h2{
+    font-size: larger;
+    text-align: start;
+    font-weight: bolder
+}
+.FAQ-12 h2{
+    font-size: larger;
+    text-align: start;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.FAQ-21 h2{
+    font-size: larger;
+    text-align: start;
+    font-weight: bolder;
+}
+.FAQ-22 h2{
+    font-size: larger;
+    text-align: start;
+    font-weight: bolder;
+    padding-top: 20px;
+}
