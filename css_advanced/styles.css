@@ -1,3 +1,93 @@
-header{
-    background-color: black;
+.background_image{
+    background-image: url("Object.png");
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 1093px;
+}
+/*Navigation section*/
+.navigation nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* set the size of the logo*/
+.navigation img{
+    height: 50px;
+}
+/*add some between the links*/
+.navigation a{
+    margin-left: 80px;
+}
+/* push the link to the far right*/
+.navigation nav a{
+    margin-left: auto;
+}
+
+/*Remove underline and text color in navigation link*/
+nav a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+/*Style top part of the burner*/
+.burner1{
+    text-align: center;
+    color: #FFFFFF;
+    padding: 50px;
+}
+/* set the container of three words*/
+.container{
+    display: flex;
+    gap: 2px;
+    justify-content: space-around;
+    
+}
+.box{
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+/* set the button color*/
+.custom-button{
+    width: 261px;
+    height: 40px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    font-size: larger;
+}
+/* setting the header at the centre of the page*/
+.centred{
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+.highlight{
+    color: #C271FF;
+}
+/*Setting the picrures to be displayed horizontally*/
+.pictures{
+    display: flex;
+    flex-direction: row;
+}
+/*Styling the images and there content*/
+.image_1{
+    color: #FFFFFF;
+    padding-left: 300px;
+    padding-top: 70px;
+}
+.image_2{
+    color: #FFFFFF;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.image_3{
+    color: #FFFFFF;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.image_4{
+    color: #FFFFFF;
+    padding-left: 70px;
+    padding-top: 70px;
 }
