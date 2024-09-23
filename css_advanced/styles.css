@@ -1,35 +1,32 @@
-body{
-    margin: 0px;
-}
+
 .background_image{
     background-image: url("Object.png");
     background-repeat: no-repeat;
     width: 1440px;
     height: 1093px;
 }
-/*Navigation section*/
+/*Display the navigation link in flex form and align items at centre*/
 .navigation nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
 }
 /* set the size of the logo*/
 .navigation img{
     height: 50px;
-}
-/*add some between the links*/
-.navigation a{
-    margin-left: 80px;
-}
-/* push the link to the far right*/
-.navigation nav a{
-    margin-left: auto;
+    text-align: center;
+    padding-left: 60px;
 }
 
 /*Remove underline and text color in navigation link*/
 nav a{
     color: #FFFFFF;
     text-decoration: none;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: center;
+    
 }
 /*Style top part of the burner*/
 .burner1{
@@ -39,16 +36,14 @@ nav a{
 }
 /* set the container of three words*/
 .container{
-    display: flex;
-    gap: 2px;
-    justify-content: space-around;
+ word-spacing: 50px;   
+ font-weight: bolder;
+ padding-top: 10px;
     
 }
-.box{
-        width: 100px;
-        height: 100px;
-        text-align: center;
-    }
+.button{
+    padding-top: 10px;
+}
 /* set the button color*/
 .custom-button{
     width: 261px;
@@ -57,6 +52,7 @@ nav a{
     color: #FFFFFF;
     background-color: #C271FF;
     font-size: larger;
+    
 }
 /* setting the header at the centre of the page*/
 .centred{
