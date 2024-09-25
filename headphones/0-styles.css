@@ -6,6 +6,7 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 /* Setting the logo properties*/
 nav img{
     width: 161px;
@@ -72,4 +73,7 @@ a:hover{
 }
 .header-p2{
     text-align: center;
+}
+.header-custom-button :hover{
+    opacity: 0.9;
 }
