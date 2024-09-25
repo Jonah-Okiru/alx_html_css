@@ -6,3 +6,70 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+/* Setting the logo properties*/
+nav img{
+    width: 161px;
+    height: 32px;
+    margin-top: 27.76px;
+    margin-left: 200.61px;
+}
+/*setting and styling the links*/
+.links{
+    width: 255px;
+    height: 15px;
+    margin-top: 27.76px;
+    margin-left: 946px;
+}
+.links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+/* Setting the hover color*/
+a:hover{
+    color: #FF6565;
+}
+/* Styling the header parts*/
+.section-header{
+    width: 637px;
+    height: 313px;
+    margin-top: 372px;
+    margin-left: 382px;
+    color: #FFFFFF;
+}
+.header-h1{
+    text-align: center;
+    font: bolder;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 40.22px;
+}
+.header-p1{
+    text-align: center;
+    font: bolder;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 20.11px;
+}
+.header-button{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+.header-custom-button{
+    color: #FFFFFF;
+    width: 162px;
+    height: 44px;
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 17.6px;
+    background-color: #FF6565;
+    border: #FF6565;
+    border-radius: 15px;
+}
+.header-p2{
+    text-align: center;
+}
