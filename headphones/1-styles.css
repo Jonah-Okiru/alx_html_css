@@ -1,0 +1,99 @@
+/* What we do section*/
+/*Align the text to the centre*/
+.do-section-header{
+    text-align: center;
+}
+/* Align the insruments and icons to the centre*/
+.music-sections{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 340px;
+    padding-top: 35px;
+    margin: 20px;
+}
+/* the header part*/
+.do-section-header h1{
+    font-size: 32px;
+    line-height: 37.5px;
+    padding-top: 15px;
+    text-align: center;
+    color: #071629;
+    padding-top: 15px;
+}
+/* the paragrapgh section*/
+.do-section-header p{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #071629;
+
+}
+/* Styling the music instrument sections*/
+.video h3{
+    font-size: 18px;
+    line-height: 26px;
+    color: #071629;
+    text-align: center;
+}
+.sound h3{
+    font-size: 18px;
+    line-height: 26px;
+    color: #071629;
+    text-align: center;
+    
+}
+.music h3{
+    font-size: 18px;
+    line-height: 26px;
+    color: #071629;
+    text-align: center;
+}
+.hearing h3{
+    font-size: 18px;
+    line-height: 26px;
+    color: #071629;
+    text-align: center;
+}
+video p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #071629;
+    text-align: center;
+}
+.sound p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #071629;
+    text-align: center;
+    
+}
+.music p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #071629;
+    text-align: center;
+}
+.hearing p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #071629;
+    text-align: center;
+}
+/* spacing the instruments*/
+.sound{
+    padding-right: 60px;
+}
+.music{
+    padding-left: 50px;
+}
+.hearing{
+    padding-left: 50px;
+}
+.music-sections{
+    padding-right: 20px;
+}
+.video{
+    padding-right: 20px;
+}
