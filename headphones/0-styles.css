@@ -6,6 +6,10 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+/* Hidding the menu icon in desktop display*/
+.Menu-class{
+    display: none;
+}
 
 /* Setting the logo properties*/
 nav img{
@@ -76,4 +80,83 @@ a:hover{
 }
 .header-custom-button :hover{
     opacity: 0.9;
+}
+/* Mobile styles*/
+/*Navigation links*/
+@media only screen and (max-width: 375px) {
+    /* The background image*/
+    .logo-navigation{
+        background-image: url("headphones_hero_1.jpg");
+        width: 375px;
+        height: 869px;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+    }
+    /* Hide the links navigation*/
+    .links{
+        display: none;
+    }
+    /* Setting the logo properties*/
+    nav img{
+        width: 161px;
+        height: 32px;
+        margin-top: 29px;
+        margin-left: 107px;
+    }
+    /* Styling the header parts*/
+    .section-header{
+        width: 357px;
+        height: 436px;
+        margin-top: 327px;
+        margin-left: 9px;
+        color: #FFFFFF;
+    }
+    .Menu-class{
+        width: 20px;
+        height: 14px;
+        margin-top: 38px;
+        margin-left: 21px;
+        display: block;
+    }
+
+}
+/* Tablet styles*/
+@media only screen and (max-width: 768px){
+    /* The background image*/
+    .logo-navigation{
+        background-image: url("headphones_hero_1.jpg");
+        width: 768x;
+        height: 800px;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+    }
+    /* display links*/
+    .links{
+        width: 255px;
+        height: 15px;
+        margin-top: 37px;
+        margin-left: 444px;
+    }
+    /* Setting the logo properties*/
+    nav img{
+        width: 114.12x;
+        height: 12.06px;
+        margin-top: 39.55px;
+        margin-left: 112.84px;
+    }
+    /* Styling the header parts*/
+    .section-header{
+        width: 637px;
+        height: 313px;
+        margin-top: 372px;
+        margin-left: 66px;
+        color: #FFFFFF;
+    }
+    .Menu-class{
+        display: none;
+    
 }
