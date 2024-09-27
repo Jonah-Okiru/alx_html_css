@@ -35,3 +35,39 @@ footer{
     font-size: 14px;
     transform: translateX(-50%);
 }
+/* style the display for the phone*/
+@media only screen and (max-width: 375px){
+    /* Styling footer background*/
+footer{
+    width: 375px;
+    height: 249px;
+    background-color: #071629;
+}
+/* arrange the footer icons*/
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.footer-logo,
+  .footer-p,
+  .footer-social {
+    margin-bottom: 15px; /* Add spacing between sections */
+    text-align: center;
+}
+.footer-logo{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.footer-social{
+    padding-bottom: 80px;
+    padding-left: 30px;
+
+}
+.footer-p{
+    padding-bottom: 80px;
+    padding-right: 30px;
+}
+
+}
