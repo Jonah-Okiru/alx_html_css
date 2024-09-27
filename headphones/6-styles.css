@@ -1,0 +1,35 @@
+/* Basic styling for the section */
+.our-results {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .pentagon-container {
+
+    display: flex;
+    gap: 20px; /* Space between pentagons */
+  }
+  
+  .pentagon {
+    width: 100px;
+    height: 100px;
+    background-color: #FF6565;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Hover effect */
+  .pentagon:hover {
+    background-color: #2980b9;
+    transition: background-color 0.3s ease;
+  }
