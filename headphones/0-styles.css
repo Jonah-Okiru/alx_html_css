@@ -113,6 +113,54 @@ a:hover{
         margin-left: 9px;
         color: #FFFFFF;
     }
+    .header-h1{
+        width: 357px;
+        height: 80px;
+        text-align: center;
+        font: bolder;
+        font-weight: 700px;
+        font-size: 32px;
+        line-height: 40.22px;
+        
+    }
+    .header-p1{
+        width: 355px;
+        height: 20px;
+        text-align: center;
+        font: bolder;
+        font-weight: 700px;
+        font-size: 16px;
+        line-height: 20.11px;
+    }
+    .header-button{
+        width: 162px;
+        height: 44px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 97px;
+        
+        
+    }
+    .header-custom-button{
+        color: #FFFFFF;
+        width: 162px;
+        height: 44px;
+        font-weight: 700px;
+        font-size: 14px;
+        line-height: 17.6px;
+        background-color: #FF6565;
+        border: #FF6565;
+        border-radius: 15px;
+    }
+    .header-p2{
+        width: 335px;
+        height: 182px;
+        text-align: center;
+        width: 637px;
+        height: 104px;
+        font-size: 16px;
+    }
     .Menu-class{
         width: 20px;
         height: 14px;
@@ -121,42 +169,4 @@ a:hover{
         display: block;
     }
 
-}
-/* Tablet styles*/
-@media only screen and (max-width: 768px){
-    /* The background image*/
-    .logo-navigation{
-        background-image: url("headphones_hero_1.jpg");
-        width: 768x;
-        height: 800px;
-        background-position: center;
-        background-repeat: no-repeat;
-        
-        
-    }
-    /* display links*/
-    .links{
-        width: 255px;
-        height: 15px;
-        margin-top: 37px;
-        margin-left: 444px;
-    }
-    /* Setting the logo properties*/
-    nav img{
-        width: 114.12x;
-        height: 12.06px;
-        margin-top: 39.55px;
-        margin-left: 112.84px;
-    }
-    /* Styling the header parts*/
-    .section-header{
-        width: 637px;
-        height: 313px;
-        margin-top: 372px;
-        margin-left: 66px;
-        color: #FFFFFF;
-    }
-    .Menu-class{
-        display: none;
-    
 }
