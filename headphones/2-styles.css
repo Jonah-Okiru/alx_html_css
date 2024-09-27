@@ -148,3 +148,163 @@
     padding-right: 60px;
     text-align: center;
 }
+/* phone display of our result section*/
+@media only screen and (max-width: 375px){
+    /* Insert the back ground image*/
+.results{
+    background-image: url("headphones_hero_2.jpg");
+    width: 375px;
+    height: 1491px;
+}
+/* styling the header*/
+.results h1{
+    width: 266px;
+    height: 80px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 37.5px;
+    font-weight: 400px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+/*styling the paragraph*/
+.results p{
+    width: 305px;
+    height: 208px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+}
+/* set the size of the image*/
+.image1{
+    width: 190px;
+    height: 190px;
+}
+.image2{
+    width: 89px;
+    height: 26px;
+    font-size: 46px;
+    text-align: center;
+}
+.pentagon h3{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 26px;
+}
+.pentagon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-left: 100px;
+}
+/* combine the pentagons with text and image*/
+/* Set the video1 play button*/
+.pentagon1{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.image11{
+    width: 190px;
+    height: 190px;
+}
+.image21{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    width: 10pxl;
+    height: 10pxl;
+}
+.pentagon1 h3{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    width: 111px;
+    height: 26px;
+    padding-right: 60px;
+    text-align: center;
+    
+    
+}
+.pentagon2{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.image12{
+    width: 190px;
+    height: 190px;
+}
+.image22{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    width: 10pxl;
+    height: 10pxl;
+}
+.pentagon2 h3{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    width: 111px;
+    height: 26px;
+    padding-right: 60px;
+    text-align: center;
+}
+.pentagon3{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.image13{
+    width: 190px;
+    height: 190px;
+}
+.image23{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    width: 10pxl;
+    height: 10pxl;
+}
+.pentagon3 h3{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    width: 111px;
+    height: 26px;
+    padding-right: 60px;
+    text-align: center;
+}
+.pentagon4{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+.image14{
+    width: 190px;
+    height: 190px;
+}
+.image24{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    width: 10pxl;
+    height: 10pxl;
+}
+.pentagon4 h3{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    width: 111px;
+    height: 26px;
+    padding-right: 60px;
+    text-align: center;
+}
+}
